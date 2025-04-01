@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="iTIQKPUnprntrxNXtOvd">
-    <mxGraphModel>
+    <mxGraphModel dx="1177" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Client Interface&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="525" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Initiate Video&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;call Request&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Generate Zego Cloud Token&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Emit Socket Event&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="690" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Notify Other Users&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="870" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;End Call &amp;amp; Cleanup&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1049" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Create Zego UI Kit&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Join Room With ZegoUIKitPrebuilt&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="690" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Configure Room Settings&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="870" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-22" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-3" target="JRVX4RoBGMq6KUdWriWB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="585" as="sourcePoint" />
+            <mxPoint x="460" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-8" target="JRVX4RoBGMq6KUdWriWB-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="610" as="sourcePoint" />
+            <mxPoint x="690" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-5" target="JRVX4RoBGMq6KUdWriWB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="800" as="sourcePoint" />
+            <mxPoint x="470" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-27" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-9" target="JRVX4RoBGMq6KUdWriWB-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="790" as="sourcePoint" />
+            <mxPoint x="690" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-7" target="JRVX4RoBGMq6KUdWriWB-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1100" as="sourcePoint" />
+            <mxPoint x="490" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-6" target="JRVX4RoBGMq6KUdWriWB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="955" as="sourcePoint" />
+            <mxPoint x="460" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRVX4RoBGMq6KUdWriWB-10" target="JRVX4RoBGMq6KUdWriWB-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="970" as="sourcePoint" />
+            <mxPoint x="690" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JRVX4RoBGMq6KUdWriWB-31" value="4.1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
